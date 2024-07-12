@@ -20,8 +20,8 @@ export const data = [
     },
     {
         id: 3,
-        name: "Design",
-        url: "/products"
+        name: "Solutions",
+        url: "/solutions"
     },
     {
         id: 4,
