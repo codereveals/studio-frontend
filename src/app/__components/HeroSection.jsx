@@ -23,11 +23,10 @@ const HeroSection = () => {
           <code className="text-transparent font-mono font-medium bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 dark:text-sky-400">
             Gradient and Color Generators,
           </code>{" "}
-          and{" "}
           <code className=" text-transparent font-mono font-medium bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 dark:text-sky-400">
             Title-To-Slug Converter
           </code>{" "}
-          that can be helps you.
+          and more that can be helps you.
         </p>
         <div className="flex justify-center mt-10">
           <Search />

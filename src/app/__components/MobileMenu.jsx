@@ -28,7 +28,7 @@ const MobileMenu = ({ isActive }) => {
     <menu className={isActive ? "active" : ""}>
       <nav className=" text-white">
         <ul className=" md:flex items-center gap-8 font-medium text-white">
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <li
               key={index}
               className="mr-6 relative cursor-pointer"

@@ -60,9 +60,11 @@ header {
     width: 100%;
     background-image: url("/menu-bg--desktop.svg");
     background-size: cover;
+    transition: all 0.5s;
   }
   menu.active {
     left: 0;
+    transition: all 0.5s;
   }
   menu.active ul > li {
     margin-bottom: 10px;

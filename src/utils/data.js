@@ -21,7 +21,10 @@ export const data = [
     {
         id: 3,
         name: "Solutions",
-        url: "/solutions"
+        submenus: [
+            { name: "Currency Converter", url: "/solutions/currency-converter" },
+            { name: "Temprature Converter", url: "/Solutions/temprature-converter" },
+        ]
     },
     {
         id: 4,

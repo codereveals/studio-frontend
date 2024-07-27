@@ -13,7 +13,7 @@ export default function Home() {
           <small className=" uppercase font-bold text-md text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-800">
             Tools
           </small>
-          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">
+          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
             Best Tools for Millions eye
           </h2>
           <div className="my-7 grid sm:grid-cols-2 grid-cols-2 md:grid-cols-4 gap-4 lg:gap-9 xl:grid-cols-5 ">
@@ -43,7 +43,7 @@ export default function Home() {
             Solutions
           </small>
           <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight ">
-            Solutions for Developr
+            Solutions for Developer
           </h2>
 
           <div className="grid mt-5 md:mt-9 sm:grid-cols-2 grid-cols-2 md:grid-cols-4 gap-4 lg:gap-9 xl:grid-cols-4 xl:gap-9">
