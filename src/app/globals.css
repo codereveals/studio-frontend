@@ -43,6 +43,28 @@ header {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-.ck.ck-editor__main .ck-content.ck-editor__editable{
-min-height: 400px;
+.ck.ck-editor__main .ck-content.ck-editor__editable {
+  min-height: 400px;
+}
+
+/* ==== Mobile Menu ===== */
+
+@media (max-width: 767px) {
+  menu {
+    position: fixed;
+    left: -100%;
+    padding: 34px 20px;
+    top: 0;
+    height: 100vh;
+    max-width: 150px;
+    width: 100%;
+    background-image: url("/menu-bg--desktop.svg");
+    background-size: cover;
+  }
+  menu.active {
+    left: 0;
+  }
+  menu.active ul > li {
+    margin-bottom: 10px;
+  }
 }

@@ -40,19 +40,19 @@ export default function Home() {
 
         <div className="mt-10 lg:mt-20">
           <small className=" uppercase font-bold text-md text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-800">
-            Desingers
+            Solutions
           </small>
-          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">
-            Free Stock for Desinger
+          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight ">
+            Solutions for Developr
           </h2>
 
           <div className="grid mt-5 md:mt-9 sm:grid-cols-2 grid-cols-2 md:grid-cols-4 gap-4 lg:gap-9 xl:grid-cols-4 xl:gap-9">
             <Card
-              title="Images"
-              imgURL="/slug.webp"
-              url="/tools/word-counter"
+              title="Currency Converter"
+              imgURL="/currency-convert.jpg"
+              url="/solutions/currency-converter"
             />
-            <Card title="Mockup" imgURL="/mockup.webp" />
+            <Card title="Temprature Converter" imgURL="/temprature-converter.jpg" url="/solutions/temprature-converter" />
             <Card title="Banners" imgURL="/banner.webp" />
             <Card title="Logos" imgURL="/logoss.webp" />
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
           <small className=" uppercase font-bold text-md text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-800">
             Learning
           </small>
-          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">
+          <h2 className="text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight ">
             Introducing
           </h2>
 

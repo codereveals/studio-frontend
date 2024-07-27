@@ -3,7 +3,7 @@ import { data } from "@/utils/data";
 import Link from "next/link";
 import { FaAngleDown } from "react-icons/fa";
 
-const MobileMenu = () => {
+const MobileMenu = ({ isActive }) => {
   const [openSubmenuIndex, setOpenSubmenuIndex] = useState(null);
 
   const handleToggleSubmenu = (index) => {
@@ -25,9 +25,9 @@ const MobileMenu = () => {
   );
 
   return (
-    <menu>
+    <menu className={isActive ? "active" : ""}>
       <nav className=" text-white">
-        <ul className="hidden md:flex items-center gap-8 font-medium text-white">
+        <ul className=" md:flex items-center gap-8 font-medium text-white">
           {data.map((item, index) => (
             <li
               key={index}

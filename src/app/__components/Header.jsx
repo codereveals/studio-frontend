@@ -8,12 +8,11 @@ import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
-  const [mobileMenu, setMobileMenu] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
-  const handleMobileMenu = () => {
-    setMobileMenu(!mobileMenu);
+  const toggleActive = () => {
+    setIsActive((prevState) => !prevState);
   };
-
   return (
     <header
       className={`bg-[url('/menu-bg--desktop.svg')] fixed top-0 left-0 md:static  py-3 bg-cover bg-no-repeat bg-center w-full h-auto md:h-[80px]  flex items-center transition-transform duration-300 z-20 `}
@@ -28,7 +27,7 @@ const Header = () => {
             className="w-[100px] md:w-[150px]"
           />
         </Link>
-        <MobileMenu />
+        <MobileMenu isActive={isActive} />
         {/* <Menu /> */}
 
         <div className="flex items-center">
@@ -55,7 +54,7 @@ const Header = () => {
             </svg>{" "}
             Get started
           </a>
-          <span className="p-3 md:hidden" onClick={handleMobileMenu}>
+          <span className="p-3 md:hidden" onClick={toggleActive}>
             <Image src="/hamburger.svg" alt="menu" width={40} height={40} />
           </span>
         </div>
