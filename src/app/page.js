@@ -77,7 +77,7 @@ export default function Home() {
         </div>
 
 
-        <div className="my-10 lg:my-20">
+        {/* <div className="my-10 lg:my-20">
           <small className=" uppercase font-bold text-md text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-800">
             Learning
           </small>
@@ -95,7 +95,7 @@ export default function Home() {
             <Card title="JS" imgURL="/js.webp" />
             <Card title="React" imgURL="/react.webp" />
           </div>
-        </div>
+        </div> */}
 
       </Wrapper>
     </main>
