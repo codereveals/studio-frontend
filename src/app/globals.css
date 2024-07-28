@@ -61,6 +61,7 @@ header {
     background-image: url("/menu-bg--desktop.svg");
     background-size: cover;
     transition: all 0.5s;
+    z-index: 3;
   }
   menu.active {
     left: 0;
