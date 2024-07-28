@@ -1,7 +1,12 @@
+import Breadcrumb from "@/app/__components/Breadcrumb";
 import React from "react";
 
 const TempratureConverter = () => {
-  return <div>TempratureConverter</div>;
+  return (
+    <>
+      <Breadcrumb title="Temprature Converter" />
+    </>
+  );
 };
 
 export default TempratureConverter;

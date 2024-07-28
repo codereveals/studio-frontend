@@ -15,7 +15,7 @@ const Header = () => {
   };
   return (
     <header
-      className={`bg-[url('/menu-bg--desktop.svg')] fixed top-0 left-0 md:static  py-3 bg-cover bg-no-repeat bg-center w-full h-auto md:h-[80px]  flex items-center transition-transform duration-300 z-20 `}
+      className={`bg-[url('/menu-bg--desktop.svg')] fixed top-0 left-0  py-3 bg-cover bg-no-repeat bg-center w-full h-auto md:h-[80px]  flex items-center transition-transform duration-300 z-20 `}
     >
       <Wrapper className={`flex items-center justify-between`}>
         <Link href="/">
