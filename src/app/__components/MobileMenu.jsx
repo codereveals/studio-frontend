@@ -14,11 +14,13 @@ const MobileMenu = ({ isActive }) => {
     <ul
       className={` ${
         openSubmenuIndex === parentIndex ? "block z-20 absolute" : "hidden"
-      } left-0 mt-1 mb-4 bg-slate-900 z-20 py-5 px-4 rounded-md w-[230px] text-white`}
+      } left-0 mt-1 mb-4 bg-pink-700 z-20 py-4 px-3 rounded-md min-w-[200px] text-white`}
     >
       {submenus.map((submenu, index) => (
         <li key={index} className="px-2 py-1">
-          <Link href={submenu.url}>{submenu.name}</Link>
+          <Link className="text-sm hover:text-slate-800" href={submenu.url}>
+            {submenu.name}
+          </Link>
         </li>
       ))}
     </ul>
@@ -37,7 +39,7 @@ const MobileMenu = ({ isActive }) => {
               {item.submenus ? (
                 <>
                   {/* Render submenu if it exists */}
-                  <span className="flex gap-2 items-center">
+                  <span className="flex gap-2 items-center hover:text-purple-800 hover:font-medium">
                     {item.name}
                     <span className="text-white">
                       <FaAngleDown />

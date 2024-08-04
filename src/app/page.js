@@ -53,7 +53,7 @@ export default function Home() {
               url="/solutions/currency-converter"
             />
             <Card title="Temprature Converter" imgURL="/temprature-converter.jpg" url="/solutions/temprature-converter" />
-            <Card title="Banners" imgURL="/banner.webp" />
+            <Card title="EMI Calculater" imgURL="/emi-calculater.jpg" url="/solutions/temprature-converter" />
             <Card title="Logos" imgURL="/logoss.webp" />
           </div>
         </div>

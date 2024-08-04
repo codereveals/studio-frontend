@@ -52,7 +52,10 @@ const Header = () => {
         {/* <Menu /> */}
 
         <div className="flex items-center">
-          <a className=" bg-gradient-to-r from-purple-900 to-pink-800   relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50  shadow-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0">
+          <Link
+            href="/company/contact-us"
+            className=" bg-gradient-to-r from-purple-900 to-pink-800   relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50  shadow-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
+          >
             <svg
               className="animate-spin -ml-1 mr-3 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +77,7 @@ const Header = () => {
               ></path>
             </svg>{" "}
             Get started
-          </a>
+          </Link>
           <span className="p-3 md:hidden" onClick={toggleActive}>
             <Image src="/hamburger.svg" alt="menu" width={40} height={40} />
           </span>
