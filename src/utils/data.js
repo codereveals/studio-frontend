@@ -30,8 +30,8 @@ export const data = [
         id: 4,
         name: "More",
         submenus: [
-            { name: "About Us", url: "/about" },
-            { name: "Contact Us", url: "/contact" },
+            { name: "About Us", url: "/company/about-us" },
+            { name: "Contact Us", url: "/company/contact-us" },
         ]
     },
 

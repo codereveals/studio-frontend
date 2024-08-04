@@ -40,7 +40,7 @@ const RemoveExtraSpaces = () => {
     <>
       <Breadcrumb title="Remove Extra Spaces" />
       <Wrapper>
-        <div className="p-5 shadow-md rounded-lg my-10 min-h-[400px]">
+        <div className="p-5 shadow-md rounded-lg  my-5  min-h-[400px]">
           <div className="p-10 bg-teal-50 my-3 rounded-md">
             <h2 className="text-2xl text-black font-bold py-5 text-center">
               What is Remove Extra Spaces?

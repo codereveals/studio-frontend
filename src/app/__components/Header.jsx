@@ -9,13 +9,34 @@ import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleActive = () => {
     setIsActive((prevState) => !prevState);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 100) {
+        // Adjust this value based on when you want the style to change
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <header
-      className={`bg-[url('/menu-bg--desktop.svg')] fixed top-0 left-0  py-3 bg-cover bg-no-repeat bg-center w-full h-auto md:h-[80px]  flex items-center transition-transform duration-300 z-20 `}
+      className={`bg-[url('/menu-bg--desktop.svg')] ${
+        scrolled ? " fixed ease-in-out delay-150" : ""
+      } top-0 left-0  py-3 bg-cover  bg-no-repeat bg-center w-full h-auto md:h-[80px]  flex items-center transition-all	 duration-300 z-20 `}
     >
       <Wrapper className={`flex items-center justify-between`}>
         <Link href="/">

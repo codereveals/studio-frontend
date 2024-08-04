@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <NextTopLoader color="#CE267C" showSpinner={false} />
-
         <Header />
         {children}
         <Footer />

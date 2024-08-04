@@ -48,6 +48,9 @@ header {
   min-height: 400px;
 }
 
+.legal_content-wrapper * {
+  margin-bottom: 1rem;
+}
 /* ==== Mobile Menu ===== */
 
 @media (max-width: 767px) {

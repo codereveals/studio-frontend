@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex items-center">
             <div>
               <h2 className="font-bold text-slate-800 text-sm md:text-lg ">
-                <span className="font-bold  text-transparent bg-clip-text font-sans bg-gradient-to-r from-purple-700 to-pink-800">AI Generator</span>  Tools Generator Comming Soon{" "}
+                <span className="font-bold  text-transparent bg-clip-text font-sans bg-gradient-to-r from-purple-700 to-pink-800">AI Generator </span>  Tools Comming Soon {" "}
               </h2>
             </div>
           </div>

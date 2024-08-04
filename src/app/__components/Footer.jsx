@@ -11,25 +11,31 @@ const Footer = () => {
               <h4 className="text-lg text-white font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
                 Code Reveals
               </h4>
-              <ul className="grid gap-4 min-[500px]:gap-6 text-center min-[500px]:text-left">
+              <ul className="grid gap-4 min-[500px]:gap-4 text-center min-[500px]:text-left">
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
+                  <a href="/" className="text-white hover:text-pink-900">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    About
+                  <a
+                    href="/company/about-us"
+                    className="text-white hover:text-pink-900"
+                  >
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a href="" className="text-white hover:text-pink-900">
-                    Pricing
+                    FAQs
                   </a>
                 </li>
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Contact
+                  <a
+                    href="/company/contact-us"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -38,25 +44,37 @@ const Footer = () => {
               <h4 className="text-lg text-white font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
                 Products
               </h4>
-              <ul className="grid gap-4 min-[500px]:gap-6 text-center min-[500px]:text-left">
+              <ul className="grid gap-4 min-[500px]:gap-4 text-center min-[500px]:text-left">
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Tools
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Desginer
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Gradient Generator
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="text-white hover:text-pink-900">
+                  <a
+                    href="/tools/word-counter"
+                    className="text-white hover:text-pink-900"
+                  >
                     Word Counter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/tools/color-generator"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Color Generator
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/solutions/currency-converter"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Currency Converter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/tools/slug-generator"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Slug Generator
                   </a>
                 </li>
               </ul>
@@ -65,26 +83,38 @@ const Footer = () => {
               <h4 className="text-lg text-white font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
                 Resources
               </h4>
-              <ul className="grid gap-4 min-[500px]:gap-6 text-center min-[500px]:text-left">
+              <ul className="grid gap-4 min-[500px]:gap-4 text-center min-[500px]:text-left">
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    FAQs
-                  </a>
+                  <Link
+                    href="/legal/privacy-policy"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Privacy Policy
+                  </Link>
                 </li>
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Quick Start
-                  </a>
+                  <Link
+                    href="/legal/terms-of-uses"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Terms of services
+                  </Link>
                 </li>
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    Documentation
-                  </a>
+                  <Link
+                    href="/legal/cookie-policy"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Cookie Policy
+                  </Link>
                 </li>
                 <li>
-                  <a href="" className="text-white hover:text-pink-900">
-                    User Guide
-                  </a>
+                  <Link
+                    href="/legal/disclaimer"
+                    className="text-white hover:text-pink-900"
+                  >
+                    Disclaimer
+                  </Link>
                 </li>
               </ul>
             </div>
