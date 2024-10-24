@@ -14,12 +14,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body className={inter.className}>
         <NextTopLoader color="#CE267C" showSpinner={false} />
         <Header />
         {children}
         <Footer />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1199452179361457"
+          crossOrigin="anonymous"></script>
       </body>
     </html>
   );

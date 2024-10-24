@@ -4,7 +4,7 @@ import React from "react";
 
 const Card = ({ title, imgURL, url }) => {
   return (
-    <div className={`  md:h-[220px] rounded-lg overflow-hidden`}>
+    <div className={`md:h-[220px] rounded-lg overflow-hidden`}>
       <Link
         href={`${url}`}
         className="w-full gap-0 h-full flex flex-col relative items-center hover-bg"
